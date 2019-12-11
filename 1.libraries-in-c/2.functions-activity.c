@@ -19,17 +19,17 @@ int main(void)
     case 'F':
     case 'f':
         convertedTemp = ftoc(userTemp);
-        printf("%d Farenheit is %f Celcius\n\n", userTemp, convertedTemp);
+        printf("\n%d Farenheit is %f Celcius\n\n", userTemp, convertedTemp);
         break;
 
     case 'C':
     case 'c':
         convertedTemp = ctof(userTemp);
-        printf("%d Celcius is %f Fareinheit\n\n", userTemp, convertedTemp);
+        printf("\n%d Celcius is %f Fareinheit\n\n", userTemp, convertedTemp);
         break;
     
     default:
-        printf("Wrong Unit only C or F are valid\n\n");
+        printf("\nWrong Unit only C or F are valid\n\n");
         break;
     }
 }
