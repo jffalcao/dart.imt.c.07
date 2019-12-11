@@ -1,13 +1,15 @@
 #include <stdio.h>
-
-double pow(double, double); //Prototype declaration header signature
+#include <math.h>
 
 int main(void)
 {
-    double a = 3.21;
-    double aSquared = square(a);
+    double a = 6.21;
+    double aSquared = pow(a, 2.0);
 
     printf("\n%.2lf square is %.2lf\n\n", a, aSquared);
     return 0;
 }
+
+// Function declaration /usr/include
+// Function definition /usr/lib
 

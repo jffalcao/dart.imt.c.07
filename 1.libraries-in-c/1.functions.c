@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-double square(double);
+double square(double); //Prototype declaration header signature
 
 int main(void)
 {
